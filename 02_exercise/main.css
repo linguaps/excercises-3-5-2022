@@ -1,0 +1,148 @@
+html {
+    background : #ffffff;
+    box-sizing: border-box;
+    font-size : 10px;
+    /*font-size : 0.75vw;*/
+    line-height : 1;
+    height : 100%;
+    scroll-behavior: smooth;
+    overflow-x : hidden;
+    width : 100%;
+  }
+  
+  /* This selects ALL elements. Add it AFTER the html selector */
+  * {
+    color : #bab3b3;
+    font-family : Helvetica, Arial, sans-serif;
+    font-weight : 400;
+    font-size : 2rem;
+    font-smooth : always;
+    line-height : 1.47;
+    margin : 0;
+    padding : 0;
+    outline : 0 !important; 
+    text-align : left;
+    scroll-behavior: smooth;
+  }
+ 
+  main {
+      display: flex;
+      flex-direction: column;
+  }
+  .main_container {
+      display:flex;
+      flex-basis: 55%;
+      flex-direction: row;
+      justify-content:space-between;
+     
+       
+  }
+
+  aside {
+    border-right: 1px solid rgb(208, 202, 202);
+     flex-basis: 25%;
+    
+  }
+
+  aside ul li {
+      border-bottom: 1px solid rgb(208, 202, 202);
+      padding: 20px;
+  }
+
+  article {
+    background-color: #e3e8ea;
+
+    flex-basis: 60%;
+
+  }
+
+  article ul {
+      margin: 0 20px;
+}
+
+  article ul li {
+    background-color: #ffffff;
+    margin: 20px;
+    padding: 40px;
+
+  }
+
+  section {
+    border-left: 1px solid rgb(208, 202, 202);
+    flex-basis: 15%;
+
+  }
+
+  section ul{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+  section ul li {
+    border: 1px solid rgb(208, 202, 202);
+    margin: 20px;
+    padding: 40px;
+
+  }
+
+  footer {
+    flex-basis: 30%;
+  }
+
+  aside ul {
+      display: flex;
+      flex-direction: column;
+      
+  }
+
+
+  footer ul {
+      background-color: #373434;
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+      
+  }
+  footer ul li {
+      align-self: flex-end;
+      color:rgb(208, 202, 202);
+  }
+
+  footer ul li a {
+        color:white;
+        font-size: 10px;
+        text-decoration: none;
+}
+
+  header {
+      border-bottom: 1px solid rgb(208, 202, 202);
+      display: flex;
+      flex-basis: 15%;
+      justify-content:left;
+  }
+
+
+  #logo {
+      padding: 10px;
+      
+  }
+
+  #title {
+      align-self: center;
+      color: black;
+      font-size: 15px;
+      font-style: italic;
+  }
+  li {
+      list-style-type: none;
+  }
+
+  a {
+      text-decoration: none;
+  }
+
+  h1{
+      color:rgb(117, 197, 170);
+      font-weight: bolder;
+      margin-bottom: 30px;
+  }
